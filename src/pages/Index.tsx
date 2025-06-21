@@ -1,16 +1,15 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import Header from '@/components/Header';
 import FloatingChatButton from '@/components/FloatingChatButton';
-import { ArrowDown, Chat, Calendar, MapPin, User, Bell, Plus } from 'lucide-react';
+import { ArrowDown, MessageCircle, Calendar, MapPin, User, Bell, Plus } from 'lucide-react';
 
 const Index = () => {
   const features = [
     {
-      icon: Chat,
+      icon: MessageCircle,
       title: 'AI Medical Chatbot',
       description: 'Get instant medical advice from our AI-powered assistant',
       path: '/chat',

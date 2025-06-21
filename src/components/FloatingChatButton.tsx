@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Chat, X } from 'lucide-react';
+import { MessageCircle, X } from 'lucide-react';
 
 const FloatingChatButton = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -18,7 +18,7 @@ const FloatingChatButton = () => {
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
-          <Chat className="h-6 w-6 text-white" />
+          <MessageCircle className="h-6 w-6 text-white" />
         </Button>
       </Link>
       
