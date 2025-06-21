@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -384,9 +383,7 @@ const Reminders = () => {
               {/* Tips Card */}
               <Card className="bg-white/80 backdrop-blur-sm border-0 shadow-xl">
                 <CardHeader>
-                  <CardTitle>💡 Health Tips</Car
-
-dTitle>
+                  <CardTitle>💡 Health Tips</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-3 text-sm text-gray-600">
